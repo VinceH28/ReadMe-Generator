@@ -41,4 +41,11 @@ const layout = `
     ## Installation
     ### ${info.installation}
     
+    ## Usage
+    ## ${info.usage}
+    ###[Deployed Link] (${info.deployed})
+    
+    ## License
+    ### ${info.license}
+    
     
