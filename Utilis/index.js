@@ -59,4 +59,11 @@ const layout = `
     ## Tests
     ### [Tests] (${info.tests})
     
-   
+    ## Questions
+    ### ${info.username}
+    ### [Github] (${info.proflie} 'Github Profile')
+    ### ${data.email}`;
+    
+    console.log(layout);
+    return layout;
+    }
