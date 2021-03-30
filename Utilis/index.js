@@ -48,4 +48,15 @@ const layout = `
     ## License
     ### ${info.license}
     
+    ## Contributing
+            1.
+                * ${info.contribtionName1}
+                * [Contributor 1 Profile] (${info.contributorGitHub1})
+            2.
+                * ${info.contribtionName2}
+                *[Contributor 1 Profile] (${info.contributorGitHub2})
     
+    ## Tests
+    ### [Tests] (${info.tests})
+    
+   
