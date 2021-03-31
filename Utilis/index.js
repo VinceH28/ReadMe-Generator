@@ -152,8 +152,11 @@ const layout = `
         ])
         .then((info) => {
             //New file title
-        const newfileName = `${info.title}.md`:
+        const newfileName = `${info.title}.md`;
             //Used in asyncWrite
-        cons details = generateMD(info)
+        const details = generateMD(info)
 
+            asyncWrite(newfileName, (details), (err) =>
+                err ? console.log(err) : console.log (' All Done!' )
+            )
         })
