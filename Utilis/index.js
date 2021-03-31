@@ -67,3 +67,96 @@ const layout = `
     console.log(layout);
     return layout;
     }
+
+    // Inquirer Prompts
+    inquirer
+        .prompt([
+            {
+                type: 'input',
+                message: 'What is the title of your project? ',
+                name: 'title',
+            },
+            {
+                type: 'input',
+                message: ' Please type a brief desvription of your project: ',
+                name: 'description',
+
+            },
+            {
+                type: 'input',
+                message: ' Let users know how to install your project: ',
+                name: 'installation',
+            },
+            {
+                type: 'input',
+                message: ' Provide instructions and examples for use: ',
+                name: 'usage',
+            },
+            {
+                type: 'input',
+                message: '  Please provide a link to your deployed application. ',
+                name: 'deployed',
+            },
+            {
+                type: 'input',
+                message: ' Add the link to your tests. ',
+                name: 'tests',
+            },
+            {
+                type: 'input',
+                message: ' Who contributed to the development of application? Full Name: ',
+                name: 'contributionmame1',
+            },
+            {
+                type: 'input',
+                message: ' Choose a license for the project: ',
+                name: ' license',
+                choices: ['Apache', 'GNU', 'MIT']
+            },
+            {
+                type: 'input',
+                message: ' What is your GitHub username?  ',
+                name: 'github',
+            },
+            {
+                type: 'input',
+                message: ' What is your email address? ',
+                name: 'email',
+            },
+            {
+                type: 'input',
+                message: ' Describe the guidelines for contributing to the rep: ',
+                name: 'contributing',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            }
+            
+        ])
