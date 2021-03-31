@@ -107,31 +107,31 @@ const layout = `
                 message: ' Who contributed to the development of application? Full Name: ',
                 name: 'contribution-mame1',
             },
-                        {
+            {
                 type: 'input',
-                message: ' ',
-                name: '',
+                message: ' Contributors GitHub Profile',
+                name: 'contribution-GH1',
             },
             {
                 type: 'input',
-                message: ' ',
-                name: '',
+                message: ' Who contributed to the development of the appplication? Full Name:',
+                name: 'contribution-mame2',
             },
             {
                 type: 'input',
-                message: ' ',
-                name: '',
+                message: ' Contributors GitHub Profile',
+                name: 'contribution-GH2',
             },
             {
                 type: 'input',
-                message: ' ',
-                name: '',
+                message: ' What is your GitHub username?  ',
+                name: 'github',
             },
             {
                 type: 'input',
-                message: ' ',
-                name: '',
-            }
+                message: ' What is your Github profile?',
+                name: 'profile',
+            },
             {
                 type: 'input',
                 message: ' Choose a license for the project: ',
@@ -139,9 +139,7 @@ const layout = `
                 choices: ['Apache', 'GNU', 'MIT']
             },
             {
-                type: 'input',
-                message: ' What is your GitHub username?  ',
-                name: 'github',
+
             },
             {
                 type: 'input',
