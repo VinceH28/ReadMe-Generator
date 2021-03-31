@@ -105,8 +105,33 @@ const layout = `
             {
                 type: 'input',
                 message: ' Who contributed to the development of application? Full Name: ',
-                name: 'contributionmame1',
+                name: 'contribution-mame1',
             },
+                        {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            },
+            {
+                type: 'input',
+                message: ' ',
+                name: '',
+            }
             {
                 type: 'input',
                 message: ' Choose a license for the project: ',
@@ -133,30 +158,6 @@ const layout = `
                 message: ' ',
                 name: '',
             },
-            {
-                type: 'input',
-                message: ' ',
-                name: '',
-            },
-            {
-                type: 'input',
-                message: ' ',
-                name: '',
-            },
-            {
-                type: 'input',
-                message: ' ',
-                name: '',
-            },
-            {
-                type: 'input',
-                message: ' ',
-                name: '',
-            },
-            {
-                type: 'input',
-                message: ' ',
-                name: '',
-            }
+
             
         ])
