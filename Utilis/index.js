@@ -124,6 +124,11 @@ const layout = `
             },
             {
                 type: 'input',
+                message: ' Describe the guidelines for contributing to the rep: ',
+                name: 'contributing',
+            },
+            {
+                type: 'input',
                 message: ' What is your GitHub username?  ',
                 name: 'github',
             },
@@ -139,23 +144,9 @@ const layout = `
                 choices: ['Apache', 'GNU', 'MIT']
             },
             {
-
-            },
-            {
                 type: 'input',
                 message: ' What is your email address? ',
                 name: 'email',
             },
-            {
-                type: 'input',
-                message: ' Describe the guidelines for contributing to the rep: ',
-                name: 'contributing',
-            },
-            {
-                type: 'input',
-                message: ' ',
-                name: '',
-            },
-
-            
+ 
         ])
