@@ -78,7 +78,7 @@ const layout = `
             },
             {
                 type: 'input',
-                message: ' Please type a brief desvription of your project: ',
+                message: ' Please type a brief description of your project: ',
                 name: 'description',
 
             },
