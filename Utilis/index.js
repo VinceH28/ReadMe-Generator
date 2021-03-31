@@ -62,7 +62,7 @@ const layout = `
     ## Questions
     ### ${info.username}
     ### [Github] (${info.proflie} 'Github Profile')
-    ### ${data.email}`;
+    ### ${info.email}`;
     
     console.log(layout);
     return layout;
@@ -150,3 +150,10 @@ const layout = `
             },
  
         ])
+        .then((info) => {
+            //New file title
+        const newfileName = `${info.title}.md`:
+            //Used in asyncWrite
+        cons details = generateMD(info)
+
+        })
